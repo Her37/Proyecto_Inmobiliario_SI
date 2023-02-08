@@ -18,7 +18,6 @@ const Novedades = (props) => {
         cargaNovedades();
     }, []);
 
-
     return (
         <main className="holder">
 
@@ -31,7 +30,7 @@ const Novedades = (props) => {
                     title={item.titulo} subtitle={item.subtitulo}
                     imagen={item.imagen} body={item.cuerpo} />)
             )}
-            
+
         </main>
     );
 };

@@ -12,10 +12,12 @@ export default function Map(lat, lng) {
   if (!isLoaded) return <div>Loading..</div>;
 
   return (
+    
     <GoogleMap zoom={15} center={coordenadas} mapContainerClassName='map-container'>
-      <Marker position={coordenadas} />
+      <Marker position={coordenadas} mapContainerClassName='marker-container'/>
       <div id="map"></div>
     </GoogleMap>
+
   );
 }
 

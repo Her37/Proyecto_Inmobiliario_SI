@@ -42,17 +42,17 @@ const Contacto = (props) => {
                 <h2>Contacto</h2>
 
                 <form action="/contacto" method="post" target="_blank" autocomplete="on" class="formulario" onSubmit={handleSubmit}>
-                    <p>
+                    <p><i class="fa-solid fa-user"></i>
                         <input type="text" id="nom" name="nombre" placeholder="Nombre" size="55" maxLength="40" value={formData.nombre} onChange={handleChange} />
                         <br />
                         <br />
                     </p>
-                    <p>
+                    <p><i class="fa-solid fa-envelope"></i>
                         <input type="text" id="ape" name="email" placeholder="Email" size="55" maxLength="40" value={formData.email} onChange={handleChange} />
                         <br />
                         <br />
                     </p>
-                    <p>
+                    <p><i class="fa-solid fa-phone"></i>
                         <input type="text" id="tel" name="telefono" placeholder="Telefono" size="55" maxLength="40" value={formData.telefono} onChange={handleChange} />
                         <br />
                         <br />

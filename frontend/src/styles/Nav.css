@@ -32,3 +32,39 @@ nav {
   nav ul li a.activo {
     background-color: rgba(0, 0, 0, 0.3);
   }
+
+  @media all and (max-width: 850px) {
+    .galeria {
+        width: 640px;
+        align-items: center;
+    }
+
+    #root {
+        width: 640px;
+        align-items: center;
+
+    }
+
+    .carrusel {
+        width: 600px;
+        align-items: center;
+    }
+
+    main {
+        width: 1163px;
+    }
+
+    .inicio {
+
+        height: 500px;
+    }
+
+    #caja {
+        width: 710px;
+        margin-bottom: 550px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+
+    }
+}

@@ -1,6 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { productos } from "../data";
 import Producto from "../componentes/Publicaciones/Producto";
+import "../"
 // import Filtro from "../componentes/Filtro";
 
 const Productos = () => {
@@ -35,7 +36,11 @@ const Productos = () => {
 
       {productosFiltrados.length > 0 ? (
         productosFiltrados.map((producto) => <Producto producto={producto} />)
-      ) : (<h3>No se encontraron productos</h3>)}
+      ) : (<div>
+        <h2>Lo sentimos....</h2>
+        <h1>No se encontraron productos</h1>
+      </div>
+      )}
     </div>
   );
 };

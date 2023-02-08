@@ -13,7 +13,8 @@ export const productos = [
     imagen1: '1',
     imagen2: '2',
     imagen3: '3',
-
+    lat:'-34.60578909772026',
+    lng:'-58.4097615158232'
   },
   {
     direccion: "Villa Cerro Azul, Córdoba",
