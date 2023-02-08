@@ -1,0 +1,33 @@
+<div class="container log" style="margin: 100px 580px;">
+    <h3>Agregar una nueva Novedad</h3>
+    <div calss="row">
+        <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+            <div class="mb-3 roe">
+                <div class="col 10">
+                    <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                </div>
+            </div>
+            <div class="mb-3 roe">
+                <div class="col 10">
+                    <textarea type="text" class="form-control" placeholder="Subtitulo" name="subtitulo"></textarea>
+                </div>
+            </div>
+
+            <div class="mb-3 roe">
+                <div class="col 10">
+                    <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
+                </div>
+            </div>
+            <div class="mb-3 roe">
+                <label>Imagen: <input type="file" name="imagen" id="imagen" /> </label>
+            </div>
+            <div class="boton">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a class="btn btn-primary" href="/admin/novedades">Volver</a>
+            </div>
+        </form>
+        {{#if error}}
+        <p style="text-align: center; color: red;">{{message}}</p>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,84 @@
+.logo {
+  position: absolute;
+  top: 26px;
+  margin: auto;
+  /* mix-blend-mode:luminosity; */
+  border-radius: 20px;
+
+  /* animation: logo-spin infinite 10s linear; */
+}
+
+/* @keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+  } */
+
+header {
+  background-color: #134715;
+  height: 120px;
+  position: relative;
+
+}
+
+.contenedor {
+
+  max-width: 960px;
+  margin: 0 auto;
+
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+header div h5 {
+  font-weight: 400;
+  bottom: 20px;
+  margin-left: 110px;
+  margin-bottom: 0px;
+  position: absolute;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 27px;
+  letter-spacing: 4px;
+  word-spacing: 5.4px;
+  color: #FFE4C4;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+header div h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  top: 20px;
+  margin-left: 110px;
+  position: absolute;
+}
+
+@media all  and (max-width: 850px) {
+  header {
+    width: 640px;
+  }
+  
+  header div h1 {
+    font-size: 27px;
+  }
+
+  header div h5{
+    font-size: 15px;
+  }
+
+  nav{
+
+    width: 640px;
+  }
+
+
+}

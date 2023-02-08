@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: century;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.dato p {
+    font-size: 14px;
+}
+
+.dato ul li {
+    font-size: 13px;
+}
+
+.contacto {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.contacto div {
+
+    width: 100%;
+}
+
+.formulario p {
+
+    display: flex;
+}
+
+.formulario p label {
+
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+}
+
+.botones {}
+
+
+.formulario input[type="text"], [selected] {
+    background-color: white;
+    border-radius: 10px;
+    background-color:(rgb(232, 240, 254), rgba(70, 90, 126, 0.4))
+}
+
+.formulario input[type="submit"] {
+    background-color: #22552473;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    margin: 10px;
+    width: auto;
+    /* position: relative; */
+    left: 5rem
+        /* cursor: poniter; */
+}
+
+.formulario input[type="reset"] {
+    background-color:  #22552473;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    margin: 10px;
+    width: auto;
+    /* position: relative; */
+    left: 5rem
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: rgba(8, 96, 67, 0.7);
+    margin: 10px;
+}
+
+.formulario input[type="reset"]:hover {
+    background-color: rgba(8, 96, 67, 0.7);
+}
+
+@media all  and (max-width: 850px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

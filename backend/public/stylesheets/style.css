@@ -1,0 +1,66 @@
+/* font-family: 'Open Sans', sans-serif; */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+header {
+  background-color: #134715;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 8%;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+
+  /* margin-left: 10px; */
+}
+
+header p {
+  /* display: inline-block; */
+  /* position: relative; */
+  margin-left: 80px;
+  bottom: 20px;
+  text-align: justify;
+  text-align: center;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  background-color: #ccc;
+
+  color: #333;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+
+}
+
+
+footer p {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+
+}
+
+

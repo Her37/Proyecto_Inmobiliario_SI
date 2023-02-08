@@ -1,0 +1,188 @@
+.bienvenidos {
+  width: 75%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.testimonios {
+  width: 25%;
+  float: right;
+}
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  /* margin-top: 500px; */
+}
+
+.bienvenidos p {
+  font-size: 20px;
+}
+
+.testimonio {
+  background-color: rgba(128, 128, 128, 0.325);
+  padding: 16px;
+}
+
+.testimonio .cita {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 22px;
+  display: block;
+}
+
+.testimonio .autor {
+  font-size: 10px;
+  text-align: center;
+  margin: 12px 0;
+  display: block;
+}
+
+.fondo {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  max-height: 700px;
+  animation: img infinite 20s alternate linear;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.sub_fondo {
+  height: 700px;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.inicio {
+  overflow: hidden;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: grid;
+  align-items: center;
+
+}
+
+#caja {
+  width: max-content;
+  padding: 5px;
+  background: #e1e6e2;
+  background: linear-gradient(25deg,#57a060 10%, #144a14 80%);
+  border-radius: 97px 96px 96px 95px;
+
+}
+
+#botonera {
+  width: max-content;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+  background-color: white;
+  border-radius: 97px 96px 96px 95px;
+  background-color: white;
+  background:local;
+
+}
+
+.text {
+  margin: 10px;
+}
+
+.button {
+
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 10px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #07c;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
+.acordion {
+  padding: 5px;
+  margin: 5px;
+}
+
+@keyframes img {
+  0% {
+    transform: scaleX(100%);
+    ;
+  }
+
+  25% {
+    transform: scaleX(105%);
+  }
+
+  59% {
+    transform: scaleX(110%);
+  }
+
+  75% {
+    transform: scaleX(105%);
+  }
+
+  100% {
+    transform: scaleX(100%);
+  }
+}
+
+video{
+margin-left: auto;
+width: 700px;
+height: auto;
+}
+
+@media all  and (max-width: 850px) {
+
+main{
+  width: 640px;
+}
+.inicio{
+
+  height: 500px;
+}
+
+#caja{
+  width: 610px;
+  margin-bottom: 550px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  
+}
+}
