@@ -24,7 +24,7 @@ return (
         <h2>Staff</h2>
         <div className="personas">
             <div className="persona">
-                <img src="img/nosotros/WhatsApp Image 2022-11-04 at 12.01.59 PM.jpeg" alt="" />
+                <img src="img/nosotros/imagen1.jpeg" alt="" />
                 <h5>Hernan</h5>
                 <h6>Gerente Gral</h6>
                 <p>
@@ -35,8 +35,8 @@ return (
                 </p>
             </div>
             <div className="persona">
-                <img src="img/nosotros/images.png" alt="" />
-                <h5>BOB</h5>
+                <img src="img/nosotros/images2.jpg" alt="" />
+                <h5>Carlos</h5>
                 <h6>sub Gerente</h6>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nam distinctio totam commodi
@@ -47,9 +47,9 @@ return (
             </div>
 
             <div className="persona">
-                <img src="img/nosotros/png-transparent-squidward-raising-hands-illustration-squidward-tentacles-plankton-and-karen-drawing-mr-krabs-squid-miscellaneous-pencil-whirly-brains.png"
+                <img src="img/nosotros/imagen3.jpg"
                     alt="" />
-                <h5>BOB</h5>
+                <h5>Romina</h5>
                 <h6>Gerente de Compras</h6>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nam distinctio totam commodi
@@ -60,9 +60,9 @@ return (
             </div>
 
             <div className="persona">
-                <img src="img/nosotros/png-clipart-bart-simpson-drawing-art-graphy-vexel-sketch-bart-simpson-miscellaneous-hand.png"
+                <img src="img/nosotros/imagen4.jpg"
                     alt="" />
-                <h5>Bart</h5>
+                <h5>Alejandro</h5>
                 <h6>Gerente de Marketin</h6>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nam distinctio totam commodi
@@ -72,9 +72,9 @@ return (
                 </p>
             </div>
             <div className="persona">
-                <img src="img/nosotros/png-transparent-homer-simpson-bart-simpson-maggie-simpson-marge-simpson-lisa-simpson-cartoon-characters-homer-simpson-homer-simpson-bart-simpson-maggie-simpson.png"
+                <img src="img/nosotros/imagen5.jpg"
                     alt="" />
-                <h5>Homero</h5>
+                <h5>Griselda</h5>
                 <h6>Gerente de Logistica</h6>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nam distinctio totam commodi

@@ -45,9 +45,9 @@ const Producto = (props) => {
     <Container className="galeria">
       <Row>
         <Col>
-          <div>
-            <h3>{tipo}</h3>
-            <h2>{condicion} </h2>
+          <pre className="publicaciones">
+            <h2><b>{tipo}</b></h2> 
+            <h3>En {condicion}: </h3>            
             <ul>
               <li><p class="p">{descripcion} </p></li>
               <li><p>{direccion}</p></li>
@@ -56,7 +56,7 @@ const Producto = (props) => {
               <li><p>M2 Totales: {superficie}</p></li>
               <li><p><b>PRECIO: {precio}</b></p></li>
             </ul>
-          </div>
+          </pre>
         </Col>
         <Col>
           <Carousel>

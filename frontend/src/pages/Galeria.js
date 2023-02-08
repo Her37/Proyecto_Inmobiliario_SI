@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { productos } from "../data";
 import Producto from "../componentes/Publicaciones/Producto";
-import "../"
+import "../styles/galeria.css"
 // import Filtro from "../componentes/Filtro";
 
 const Productos = () => {
@@ -31,7 +31,7 @@ const Productos = () => {
   }
 
   return (
-    <div>
+    <main className="public"> 
       {/* <Filtro lugar={lugar} condicion={condicion} tipo={tipo} /> */}
 
       {productosFiltrados.length > 0 ? (
@@ -41,7 +41,7 @@ const Productos = () => {
         <h1>No se encontraron productos</h1>
       </div>
       )}
-    </div>
+    </main>
   );
 };
 

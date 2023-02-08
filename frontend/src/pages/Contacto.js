@@ -76,11 +76,11 @@ const Contacto = (props) => {
                 <h2>Otras vias de comunicacion</h2>
                 <p>Tambien pueden contactarse con osotros usando los siguientes medios</p>
                 <ul>
-                    <li> Telefono: +54 11 2832-6768</li>
-                    <li>Email: carrizo_h@yahoo.com.ar</li>
-                    <li>Instagram: Her_35</li>
-                    <li>Twtter: Hernan Carrizo</li>
-                    <li>Sype:</li>
+                    <li><i class="fa-brands fa-square-whatsapp"></i> Telefono: +54 11 2832-6768</li>
+                    <li><i class="fa-solid fa-envelope"></i> Email: carrizo_h@yahoo.com.ar</li>
+                    <li><i class="fa-brands fa-square-instagram"></i> Instagram: Her_35</li>
+                    <li><i class="fa-brands fa-twitter"></i> Twtter: Hernan Carrizo</li>
+                    <li><i class="fa-brands fa-facebook"></i> facebook: Hernan_Carrizo</li>
                 </ul>
             </div>
         </main>

@@ -55,6 +55,8 @@ export const Home = (props) => {
                             <span className="cita">"Excelente iniciativa!"</span>
                             <span className="autor">Gaston</span>
                         </div>
+
+                        
                     </section>
                 </div>
             </div>

@@ -7,15 +7,26 @@
     margin: 20px 0px;
     height: 400px;
     width: auto;
-
-
 }
+
+.public {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #cab75e55, #cab75e );
+}
+
+
+
 
 .galeria {
     max-width: 960px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
+}
+
+.publicaciones {
+    margin-top: 50px
 }
 
 .img {
