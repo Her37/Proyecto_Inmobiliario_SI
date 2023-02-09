@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../styles/galeria.css";
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
-import Map from '../../pages/APIs/Map_Google';
+import Map from '../Map_Google';
 
 const Producto = (props) => {
   const { tipo, condicion, descripcion, direccion, dormitorios, ambientes, superficie, precio, lat, lng, imagen1, imagen2, imagen3 } = props.producto;
