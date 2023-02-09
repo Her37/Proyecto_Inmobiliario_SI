@@ -16,7 +16,7 @@ import Novedades from "./pages/Novedades";
 import Galeria from "./pages/Galeria";
 import Servicios from "./pages/Servicios";
 import Contacto from "./pages/Contacto";
-import GMap from "./pages/APIs/Map_Google";
+import GMap from "../src/componentes/Map_Google";
 
 
 
