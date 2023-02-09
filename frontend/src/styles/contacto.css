@@ -21,7 +21,7 @@ main h1 {
     font-size: 20px;
 }
 
-.contacto { 
+.contacto {
     display: flex;
     gap: 24px;
     margin-top: 30px;
@@ -29,7 +29,6 @@ main h1 {
 
 .contacto div {
     width: 100%;
-
 }
 
 .formulario p {
@@ -40,12 +39,10 @@ main h1 {
     min-width: 80px;
     display: flex;
     align-items: center;
-
 }
 
 .formulario p:nth-child(4) {
     align-items: start;
-
 }
 
 .formulario textarea {
@@ -54,7 +51,6 @@ main h1 {
     width: 100%;
     margin-left: 28px;
 }
-
 
 .formulario input[type="text"],
 [selected] {
@@ -73,9 +69,7 @@ main h1 {
     margin: 10px;
     margin-left: 28px;
     width: auto;
-    /* position: relative; */
     left: 5rem
-        /* cursor: poniter; */
 }
 
 .formulario input[type="reset"] {
@@ -87,14 +81,12 @@ main h1 {
     padding: 6px 20px;
     margin: 10px;
     width: auto;
-    /* position: relative; */
     left: 5rem
 }
 
 
 .formulario input[type="submit"]:hover {
     background-color: rgba(8, 96, 67, 0.7);
-    margin: 10px;
 }
 
 .formulario input[type="reset"]:hover {

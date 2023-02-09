@@ -5,31 +5,31 @@
             <input type="hidden" name="id" value="{{novedades.id}}">
             <div class="mb-3 roe">
                 <div class="col 10">
-                    <label for="">Titulo</label>
+                    <label for=""><b>Titulo</b></label>
                     <input type="text" class="form-control" name="titulo" value="{{novedades.titulo}}">
                 </div>
             </div>
             <div class="mb-3 roe">
                 <div class="col 10">
-                    <label for="">Subtitulo</label>
+                    <label for=""><b>Subtitulo</b></label>
                     <textarea type="text" class="form-control" name="subtitulo">{{novedades.subtitulo}}</textarea>
                 </div>
             </div>
             <div class="mb-3 roe">
                 <div class="col 10">
-                    <label for="">Cuerpo</label>
+                    <label for=""><b>Link</b></label>
                     <textarea type="text" class="form-control" name="cuerpo">{{novedades.cuerpo}}</textarea>
                 </div>
             </div>
 
             <div class="mb-3 roe">
                 <p>
-                    <label>Imagen: <input type="file" name="imagen" id="imagen" /></label>
+                    <label><b>Imagen: </b><input type="file" name="imagen" id="imagen" /></label>
                 </p>
                 <p>
                     <label><input type="checkbox" name="img_delete" id="img_delete" value="1" />Desea eliminar la imagen
                         actual?</label>
-                    <input type="hidden" name="img_original" value="{{novedad.img_id}}">
+                    <input type="hidden" name="img_original" value="{{novedades.img_id}}">
                 </p>
             </div>
             <div class="boton">

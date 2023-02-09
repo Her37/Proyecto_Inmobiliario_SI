@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const Contacto = (props) => {
+    
 
     const initialForm = {
         nombre: '',
@@ -22,7 +23,7 @@ const Contacto = (props) => {
             [name]: value
         }));
     }
-    
+
     const handleSubmit = async e => {
         e.preventDefault();
         setMsg('');
@@ -34,14 +35,14 @@ const Contacto = (props) => {
             setFormData(initialForm)
         }
     }
-
     return (
+        
         <main className="holder contacto">
 
             <div className="recuadro">
                 <h2>Contacto</h2>
 
-                <form action="/contacto" method="post" target="_blank" autocomplete="on" class="formulario" onSubmit={handleSubmit}>
+                <form action="/contacto" method="post" autocomplete="on" class="formulario" onSubmit={handleSubmit} name='contacto'>
                     <p><i class="fa-solid fa-user"></i>
                         <input type="text" id="nom" name="nombre" placeholder="Nombre" size="55" maxLength="40" value={formData.nombre} onChange={handleChange} />
                         <br />
@@ -64,8 +65,8 @@ const Contacto = (props) => {
                         <br />
                     </p>
                     <p class="botones">
-                        <input type="submit" name="Enviar" value="Enviar" onClick="alert('Gracias por tu consulta. Te responderemos a la brevedad')" />
-                        <input type="reset" value="Borrar" onClick="alert('Todo Limpio!')" />
+                        <input type="submit" value="Enviar"/>
+                        {/* <input type="reset" value="Borrar"/> */}
                     </p>
                     {sending ? <p>Enviando...</p> : null}
                     {msg ? <p>{msg}</p> : null}
@@ -77,7 +78,7 @@ const Contacto = (props) => {
                 <p>Tambien pueden contactarse con osotros usando los siguientes medios</p>
                 <ul>
                     <li><i class="fa-brands fa-square-whatsapp"></i> Telefono: +54 11 2832-6768</li>
-                    <li><i class="fa-solid fa-envelope"></i> Email: carrizo_h@yahoo.com.ar</li>
+                    <li><i class="fa-solid fa-envelope"></i>Email: carrizo_h@yahoo.com.ar</li>
                     <li><i class="fa-brands fa-square-instagram"></i> Instagram: Her_35</li>
                     <li><i class="fa-brands fa-twitter"></i> Twtter: Hernan Carrizo</li>
                     <li><i class="fa-brands fa-facebook"></i> facebook: Hernan_Carrizo</li>

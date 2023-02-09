@@ -42,7 +42,7 @@ const Producto = (props) => {
   }
 
   return (
-    <Container className="galeria">
+    <Container className="galeria" >
       <Row>
         <Col>
           <pre className="publicaciones">
