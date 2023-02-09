@@ -17,7 +17,8 @@ form button{
 }
 
 .log {
-
+  width: 300px;
+  height: 350px;
   display: grid;
   place-content: center;
   background: white;
