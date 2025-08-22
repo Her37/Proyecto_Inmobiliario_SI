@@ -23,7 +23,6 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 
 ## Estructura del repositorio
 
-Proyecto_Inmobiliario_SI/ │ ├── backend/                # Código del servidor (Backend) │ ├── frontend/               # Código del cliente (Frontend) │ └── README.md               # Este archivo
 
 ## Instalación y configuración
 
