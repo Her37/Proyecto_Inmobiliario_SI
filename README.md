@@ -17,8 +17,8 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 ## Tecnologías utilizadas
 
 - **Frontend:** JavaScript, HTML, CSS, Handlebars  
-- **Backend:** Pendiente de especificar  
-- **Base de datos:** Pendiente de especificar  
-- **Otras herramientas:** Librerías y herramientas adicionales usadas  
+- **Backend:** NODE.JS 
+- **Base de datos:** MySQL  
+- **Otras herramientas:** BOOSTRAP, APIs
 
 ## Estructura del repositorio
