@@ -1,7 +1,7 @@
 # Proyecto Inmobiliario SI
 
 ## Descripción
-Proyecto desarrollado por **Hernán Carrizo** para gestionar de forma eficiente propiedades inmobiliarias (ventas, alquileres, usuarios, etc.), con un enfoque moderno usando tecnologías web.
+Proyecto desarrollado por **Hernán Carrizo** para gestionar de forma eficiente propiedades inmobiliarias sin intermediarios (ventas, alquileres, usuarios, etc.), con un enfoque moderno usando tecnologías web.
 
 ## Índice
 - [Tecnologías usadas](#tecnologías-usadas)
