@@ -26,3 +26,10 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 
 ## Instalación y configuración
 
+## Contacto
+
+**Desarrollador:** Hernán Carrizo
+
+**GitHub: https:**//github.com/Her37
+
+**Correo electrónico:** carrizohf35@gmail.com
