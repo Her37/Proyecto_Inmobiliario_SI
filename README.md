@@ -26,6 +26,31 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 
 ## Instalación y configuración
 
+1. **Clonar el repositorio**
+
+bash
+git clone https://github.com/Her37/Proyecto_Inmobiliario_SI.git
+cd Proyecto_Inmobiliario_SI
+
+
+2. **Instalar dependencias**
+
+**Para el frontend:**
+
+cd frontend
+npm install
+
+
+**Para el backend:**
+
+cd frontend
+npm install
+
+
+3. **Configurar variables de entorno**
+
+Crear un archivo .env en la raíz del proyecto y definir las variables necesarias, como la URL de la base de datos, claves de API, etc.
+
 ## Contacto
 
 **Desarrollador:** Hernán Carrizo
