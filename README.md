@@ -28,23 +28,20 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 
 1. **Clonar el repositorio**
 
-git clone https://github.com/Her37/Proyecto_Inmobiliario_SI.git
-cd Proyecto_Inmobiliario_SI
-
+  git clone https://github.com/Her37/Proyecto_Inmobiliario_SI.git
+  cd Proyecto_Inmobiliario_SI
 
 2. **Instalar dependencias**
 
-**Para el frontend:**
+- Para el frontend:
 
-cd frontend
-npm install
+  cd frontend
+  npm install
 
+- Para el backend:
 
-**Para el backend:**
-
-cd frontend
-npm install
-
+  cd frontend
+  npm install
 
 3. **Configurar variables de entorno**
 
