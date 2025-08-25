@@ -28,7 +28,6 @@ La aplicación permite a los usuarios gestionar ventas, alquileres, usuarios y m
 
 1. **Clonar el repositorio**
 
-bash
 git clone https://github.com/Her37/Proyecto_Inmobiliario_SI.git
 cd Proyecto_Inmobiliario_SI
 
